@@ -2,7 +2,7 @@
 
 ![Logo - AprendePython](_static/img/logo-solo-aprendepython-small.png)
 
-Curs gratuït per aprendre el llenguatge de programació **Python** amb un enfocament **pràctic**, incloent **exercicis** i cobertura per a diferents **nivells de coneixement**.
+Curs gratuït per aprendre el llenguatge de programació **Python** amb un enfocament **pràctic**, incloent **exercicis** i cobertura per a diferents **nivells de coneixement**. Fork directe dels contingusts creats i publicats per Sergio Delgado Quintero a: https://aprendepython.es 
 
 ## Desenvolupament
 
