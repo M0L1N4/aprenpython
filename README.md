@@ -1,28 +1,28 @@
-# Aprende Python
+# Aprèn Python
 
 ![Logo - AprendePython](_static/img/logo-solo-aprendepython-small.png)
 
-Curso gratuito para aprender el lenguaje de programación **Python** con un enfoque **práctico**, incluyendo **ejercicios** y cobertura para distintos **niveles de conocimiento**.
+Curs gratuït per aprendre el llenguatge de programació **Python** amb un enfocament **pràctic**, incloent **exercicis** i cobertura per a diferents **nivells de coneixement**.
 
-## Desarrollo
+## Desenvolupament
 
-Asegúrate de que tienes instalado _Docker_ y _docker-compose_.
+Assegura't que tens instal·lat _Docker_ y _docker-compose_.
 
-Construir la imagen del proyecto:
+Construir la imatge del projecte:
 
 ```console
 $ docker-compose build
 ```
 
-### Documentación en `html` para desarrollo
+### Documentació en `html` pel desenvolupament
 
-Renderizar la documentación en `html` con **live-reload**:
+Renderitzar la documentació en `html` amb **live-reload**:
 
 ```console
 $ docker-compose up
 ```
 
-Una vez que salgan por pantalla los siguientes mensajes:
+Un cop que apareguen per pantalla els següents missatges:
 
 ```console
 Serving on http://0.0.0.0:8000
@@ -30,26 +30,26 @@ Start watching changes
 Start detecting changes
 ```
 
-, ya se podrá acceder a http://127.0.0.1:8000/ para ver la documentación.
+, ja es podrè accedir a http://127.0.0.1:8000/ per veure la documentació.
 
-### Documentación en `html` para producción
+### Documentació en `html` per producció
 
-Renderizar la documentación completa en `html`:
+Renderitzar la documentació completa en `html`:
 
 ```console
 $ docker-compose run aprendepython make dirhtml
 ```
 
-Al terminar la ejecución, se podrá encontrar la documentación del curso en: `_build/dirhtml/`.
+A l'acabar l'execució, es podrà trobar la documentació del curs en: `_build/dirhtml/`.
 
-### Documentación en `pdf`
+### Documentació en `pdf`
 
-Generar la documentación en `pdf` a través de _Latex_:
+Generar la documentació en `pdf` a través de _Latex_:
 
 ```console
 $ docker-compose run aprendepython make latexpdf
 ```
 
-> ℹ️️ &nbsp; Este proceso toma su tiempo ya que la documentación es extensa.
+> ℹ️️ &nbsp; Aquest procès triga el seu temps, ja que la documentació es extensa.
 
-Al terminar la ejecución, se podrá encontrar la documentación en: `_build/latex/aprendepython.pdf`
+A l'acabar l'execució, es podrà trobar la documentació en: `_build/latex/aprendepython.pdf`
