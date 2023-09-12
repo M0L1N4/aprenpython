@@ -50,6 +50,6 @@ Generar la documentació en `pdf` a través de _Latex_:
 $ docker-compose run aprendepython make latexpdf
 ```
 
-> ℹ️️ &nbsp; Aquest procès triga el seu temps, ja que la documentació es extensa.
+> ℹ️️ &nbsp; Aquest procès triga el seu temps, ja que la documentació és extensa.
 
 A l'acabar l'execució, es podrà trobar la documentació en: `_build/latex/aprendepython.pdf`
